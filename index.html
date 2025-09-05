@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sahil Kadam — Portfolio</title>
+  <meta name="description" content="Personal portfolio of Sahil Kadam: projects, skills, and contact." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav class="navbar container">
+      <a href="#home" class="logo">MyPortfolio</a>
+      <button class="nav-toggle" aria-label="Toggle Menu">☰</button>
+      <ul class="nav-links">
+  <li><a href="#about">About</a></li>
+  <li><a href="#skills">Skills</a></li>
+  <li><a href="#education">Education</a></li>
+  <li><a href="#projects">Projects</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><button id="theme-toggle" class="btn">🌙</button></li>
+</ul>
+
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <main id="home">
+    <section class="hero container">
+      <div class="hero-text">
+        <h1>Hello, I'm <span class="highlight">Sahil Kadam</span></h1>
+        <p class="tagline">A passionate Web Developer crafting modern experiences.</p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn primary">View My Work</a>
+          <a href="#contact" class="btn">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="Sahiljpg.jpg" alt="Sahil Kadam picture" />
+      </div>
+    </section>
+
+    <hr><hr>
+
+    <!-- Skills -->
+    <section id="skills" class="container">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills">
+        <div class="chip"><strong>Programming Languages:</strong> Java, C</div>
+        <div class="chip"><strong>Web Development:</strong> HTML, CSS, JavaScript, React.js, Node.js, Express.js</div>
+        <div class="chip"><strong>Databases:</strong> MySQL, MongoDB</div>
+        <div class="chip"><strong>Tools & Platforms:</strong> Git, GitHub, VS Code</div>
+      </div>
+    </section>
+
+    <hr><hr>
+
+    <!-- Education -->
+    <section id="education" class="education container">
+      <h2 class="section-title">Education</h2>
+      <div class="edu-timeline">
+        <div class="edu-item">
+          <h3>Genba Sopanrao Moze College of Engineering, Pune</h3>
+          <span class="edu-school">B.E. in Information Technology</span> <span class="edu-year">(2022–2026)</span>
+          <p class="edu-detail">CGPA: 8.64</p>
+        </div>
+        <hr>
+        <div class="edu-item">
+          <h3>Azad Vidyalay, Kasegaon</h3>
+          <p class="edu-school">HSC <span class="edu-year">(2021–2022)</span></p>
+          <p class="edu-detail">Percentage: 64.8%</p>
+        </div>
+        <hr>
+        <div class="edu-item">
+          <h3>English Medium School, Palus</h3>
+          <p class="edu-school">SSC (2019–2020)</p>
+          <p class="edu-detail">Percentage: 88.80%</p>
+        </div>
+      </div>
+    </section>
+
+    <hr><hr>
+
+    <!-- Projects -->
+    <section id="projects" class="projects container">
+      <h2 class="section-title">Projects</h2>
+      <div class="project-grid">
+        <div class="card">
+          <img src="laptop.jpg" alt="Project 1" class="project-img">
+          <h3>Zerodha Clone</h3>
+          <p>A fully responsive and functional stock trading platform UI built using React.js and Node.js.</p>
+        </div>
+        <div class="card">
+          <img src="laptop.jpg" alt="Project 2" class="project-img">
+          <h3>Portfolio Website</h3>
+          <p>A personal portfolio with dark/light theme, responsive design, and interactive sections.</p>
+        </div>
+        <div class="card">
+          <img src="laptop.jpg" alt="Project 3" class="project-img">
+          <h3>Blog Platform</h3>
+          <p>A blogging platform with user authentication and CRUD operations using MongoDB.</p>
+        </div>
+      </div>
+    </section>
+
+    <hr><hr>
+
+    <!-- About -->
+    <section id="about" class="about container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <h3>I'm Sahil Kadam</h3>
+          <p>
+            I am a passionate <strong>Web Developer</strong> with expertise in 
+            <strong>HTML, CSS, JavaScript</strong> and modern frameworks.  
+            I love creating responsive, user-friendly websites and applications.  
+          </p>
+          <p>
+            A motivated and detail-oriented B.E. IT student with strong interest in frontend development. 
+            Hands-on experience with React.js, along with basic knowledge of Java and C.
+          </p>
+          <a href="Sahil_kadam_resume.pdf" target="_blank" class="btn primary">Download Resume</a>
+        </div>
+      </div>
+    </section>
+
+    <hr><hr>
+
+    <!-- Contact -->
+    <section id="contact" class="contact container">
+      <h2 class="section-title">Contact Me</h2>
+      <div class="contact-grid">
+        <form id="contactForm" class="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn primary">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="container text-center"  <span id="year " style="text-align: center;"></span> 
+    <p>©Sahil Kadam. All rights reserved.</p>
+  </footer>
+
+  <script src="style.js"></script>
+</body>
+</html>
