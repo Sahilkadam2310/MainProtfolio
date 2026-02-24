@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sahil Kadam | Java Developer</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav class="container nav">
+    <h2 class="logo">Sahil Kadam</h2>
+
+    <div class="nav-right">
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <button id="theme-toggle" class="theme-btn">🌙</button>
+      <button class="nav-toggle">☰</button>
+    </div>
+  </nav>
+</header>
+
+<!-- HERO -->
+ <section class="hero container">
+  <div class="hero-wrapper">
+
+    <div class="hero-content">
+      <h1>Hello, I'm <span class="highlight">Sahil Kadam</span></h1>
+      <p>Java & Spring Boot Developer | Backend Enthusiast</p>
+
+      <div class="hero-buttons">
+        <a href="#projects" class="btn primary">View Projects</a>
+        <a href="https://github.com/Sahilkadam2310" target="_blank" class="btn">GitHub</a>
+        <a href="Sahil_kadam (1).pdf" target="_blank" class="btn primary">View Resume</a>
+<a href="Sahil_kadam (1).pdf" download class="btn">Download Resume</a>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <img src="Sahilkadam.png" alt="Sahil Kadam">
+    </div>
+
+  </div>
+</section>
+
+<hr class="section-line">
+
+<!-- ABOUT -->
+<section id="about" class="section container">
+  <h2>About Me</h2>
+  <p>
+    I am a passionate Java and Spring Boot developer currently pursuing 
+    B.E. in Information Technology. I enjoy building scalable web applications 
+    and solving real-world problems using clean and efficient code.
+  </p>
+</section>
+
+<hr class="section-line">
+
+
+<!-- SKILLS -->
+<section id="skills" class="section container">
+  <h2>Skills</h2>
+  <div class="grid">
+    <div class="card">Java</div>
+    <div class="card">Spring Boot</div>
+      <div class="card">Spring</div>
+    <div class="card">MySQL</div>
+    <div class="card">HTML</div>
+    <div class="card">CSS</div>
+    <div class="card">JavaScript</div>
+        <div class="card">C (Basic)</div>
+    <div class="card">Git & GitHub</div>
+    
+  </div>
+</section>
+<hr class="section-line">
+
+<!-- EDUCATION -->
+<section id="education" class="section container">
+  <h2>Education</h2>
+
+  <div class="edu-box">
+    <h3>Bachelor of Engineering (B.E.) – Information Technology</h3>
+    <p><strong>Genba Sopanrao Moze College of Engineering, Pune</strong></p>
+    <p>Savitribai Phule Pune University | 2022 – 2026</p>
+    <p><strong>CGPA:</strong> 8.95</p>
+  </div>
+
+  <div class="edu-box">
+    <h3>Higher Secondary Certificate (HSC)</h3>
+    <p><strong>Azad Vidyalaya Junior College, Kasegaon</strong></p>
+    <p>2022</p>
+    <p><strong>Percentage:</strong> 64.83%</p>
+  </div>
+
+  <div class="edu-box">
+    <h3>Secondary School Certificate (SSC)</h3>
+    <p><strong>English Medium School, Palus</strong></p>
+    <p>2020</p>
+    <p><strong>Percentage:</strong> 88.80%</p>
+  </div>
+
+</section>
+
+<hr class="section-line">
+
+<!-- PROJECTS -->
+<section id="projects" class="section container">
+  <h2>Projects</h2>
+
+  <div class="project-grid">
+
+    <div class="project-card">
+      <h3>TicketFlow System</h3>
+      <p>Role-based system using Spring Boot, MVC architecture & MySQL.</p>
+      <a href="https://github.com/Sahilkadam2310/Support-Ticket-Management-System" target="_blank" class="btn primary">View Code</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Student Management System</h3>
+      <p>Console-based CRUD application using Core Java.</p>
+        <a href="https://github.com/Sahilkadam2310/Student-Management.git" target="_blank" class="btn primary">View Code</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Portfolio Website</h3>
+      <p>Responsive personal portfolio built using HTML, CSS & JS.</p>
+        <a href="https://github.com/Sahilkadam2310/Support-Ticket-Management-System" target="_blank" class="btn primary">View Code</a>
+    </div>
+
+  </div>
+</section>
+<hr class="section-line">
+
+<!-- CONTACT -->
+<section id="contact" class="section container">
+  <h2>Contact Me</h2>
+
+  <form id="contactForm" class="contact-form">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message" rows="5" required></textarea>
+    <button type="submit" class="btn primary">Send Message</button>
+  </form>
+</section>
+<hr class="section-line">
+<footer>
+  <p>© <span id="year"></span> Sahil Kadam. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
